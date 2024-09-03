@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do Cristal Místico</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="porão de casa.jpg" alt="">
+            <p>Durante uma tarde chuvosa, ao vasculhar o porão da sua casa, você encontra um antigo diário que pertenceu ao seu bisavô, um explorador renomado. Nas páginas, ele descreve a busca por um Cristal Místico, capaz de conceder poderes inimagináveis. Determinado a completar a jornada que ele começou, você decide seguir as pistas deixadas por ele.</p>
+            <button class="btn-proximo" data-proximo="1">Montanhas da Transilvânia</button>
+            <button class="btn-proximo" data-proximo="2">Floresta Amazônica</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua aventura nas misteriosas Montanhas da Transilvânia, onde dizem que o Cristal foi avistado pela última vez.</p>
+            <button class="btn-proximo" data-proximo="3">Explorar uma caverna antiga</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Na Floresta Amazônica, você encontra um antigo xamã que diz conhecer uma pista crucial sobre a localização do Cristal. Ele sugere que você procure em uma antiga ruína escondida na floresta.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir as instruções do xamã</button>
+            <button class="btn-proximo" data-proximo="6">Ignorar e explorar a floresta por conta própria</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Dentro da caverna, você encontra inscrições nas paredes que mencionam um antigo templo nas profundezas da Floresta Amazônica.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a Floresta Amazônica</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="voltando para casa.jpeg" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Você decide que a jornada é arriscada demais e volta para casa, mas sempre se pergunta o que teria encontrado se tivesse continuado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Seguindo as instruções do xamã, você encontra uma entrada secreta para um antigo templo onde o Cristal está escondido.</p>
+            <button class="btn-proximo" data-proximo="7">Entrar no templo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando por conta própria, você se perde na floresta e acaba em um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e seguir as instruções do xamã</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Dentro do templo, a busca pelo Cristal Místico se intensifica. Você se depara com uma bifurcação no caminho.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo caminho da esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo caminho da direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta ao xamã, você finalmente encontra a entrada secreta para o templo. Agora, você está pronto para enfrentar os desafios.</p>
+            <button class="btn-proximo" data-proximo="7">Entrar no templo</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O caminho à esquerda leva você a uma sala iluminada, onde o Cristal Místico repousa em um pedestal.</p>
+            <button class="btn-proximo" data-proximo="11">Pegar o Cristal e completar a missão</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O caminho à direita leva a uma armadilha mortal. Infelizmente, você não consegue escapar.</p>
+            <button class="btn-proximo" data-proximo="12">Tentar novamente</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="cristal mistico encontrado.jpeg" alt="encontrando o Cristal Místico">
+            <p>Com o Cristal Místico em mãos, você sente uma energia poderosa fluindo por todo o seu corpo. Agora, você é o guardião do Cristal e deve protegê-lo de cair em mãos erradas.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Decidido a tentar novamente, você segue o caminho da esquerda e encontra o Cristal Místico, completando sua missão.</p>
+            <button class="btn-proximo" data-proximo="11">Pegar o Cristal e completar a missão</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
